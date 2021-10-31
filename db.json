@@ -16,7 +16,7 @@
       "id": 3,
       "text": "Jott down what you learned.",
       "day": "Oct 31st at 2:30pm",
-      "reminder": false
+      "reminder": true
     }
   ]
 }

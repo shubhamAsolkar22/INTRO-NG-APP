@@ -19,7 +19,7 @@ export class TaskItemComponent implements OnInit {
   }
 
   onDelete(task : Task){
-    // console.log(task);
+    console.log(task);
     this.onDeleteTask.emit(task);
   }
 

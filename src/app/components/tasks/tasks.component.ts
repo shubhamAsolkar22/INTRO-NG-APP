@@ -30,7 +30,7 @@ export class TasksComponent implements OnInit {
   }
 
   addTask(taskToBeAdded : Task){
-    this.taskService.addTask(taskToBeAdded).subscribe(()=>this.tasks.push(taskToBeAdded));
+    this.taskService.addTask(taskToBeAdded).subscribe((addedTask)=>this.tasks.push(addedTask));
     
   }
 
