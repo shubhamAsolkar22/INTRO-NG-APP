@@ -8,7 +8,7 @@ This project was done to learn basics of angular framework. The project was gene
 2. Difference between component and service :
 	* **Components** handle view related functionality.
 	* **Services** handle other tasks like communicating with backend API to fetch or push data from or to backend.
-3. Use of **ngOnInit()** life cycle method to populate view with data on startup. Used **json-server** to mimic
+3. Use of **ngOnInit()** life cycle method to populate view with data on startup. Used **json-server** to mimic backend using db.json as database to load and store tasks.
 4. Selector of component will always be prefixed by **'app-'**.
 5. Use of @Input and @Output decorators :
 	* **@Input** - lets a parent component update data in child component.
