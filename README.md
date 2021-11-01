@@ -4,15 +4,15 @@ This project was done to learn basics of angular framework. The project was gene
 ## Angular concepts learnt from this project:
 
 1. Application flow :
-	* main.ts -> app.module.ts -> app.component.ts ->.....
+	* **main.ts -> app.module.ts -> app.component.ts ->.....**
 2. Difference between component and service :
-	* Components handle view related functionality.
-	* Services handle other tasks like communicating with backend API to fetch or push data from or to backend.
-3. Use of ngOnInit() life cycle method to populate view with data on startup.
+	* **Components** handle view related functionality.
+	* **Services** handle other tasks like communicating with backend API to fetch or push data from or to backend.
+3. Use of **ngOnInit()** life cycle method to populate view with data on startup. Used **json-server** to mimic
 4. Selector of component will always be prefixed by **'app-'**.
 5. Use of @Input and @Output decorators :
-	* @Input - lets a parent component update data in child component.
-	* @Output - lets a child component send data to a parent component.
+	* **@Input** - lets a parent component update data in child component.
+	* **@Output** - lets a child component send data to a parent component.
 6. Event Binding :
 	* Mention the event name in **()="eventHandlerMethod()"**. Eg: (click)="onClick()" on components tag.
 	* Use **EventEmitter** to output event to parent component.
